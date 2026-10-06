@@ -83,3 +83,11 @@ button {
   display: flex;
   flex-direction: row;
 }
+.pay {
+  display: flex;
+  flex-direction: row;
+}
+.sub-pay {
+  display: flex;
+  flex-direction: column;
+}
