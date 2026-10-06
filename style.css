@@ -65,6 +65,9 @@ buttons {
   border-radius: 1rem;
   padding: 1rem;
   margin: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 button {
   height: 2.5rem;
@@ -81,13 +84,18 @@ button {
 }
 .display {
   display: flex;
-  flex-direction: row;
 }
 .pay {
   display: flex;
-  flex-direction: row;
+  gap: 1rem;
 }
 .sub-pay {
   display: flex;
   flex-direction: column;
+}
+.ap {
+  color: hsl(223, 47%, 23%);
+}
+.change {
+  color: hsl(245, 75%, 52%);
 }
